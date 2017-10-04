@@ -2,8 +2,17 @@
 Android BluetoothLeGatt Sample
 ===================================
 
-This sample demonstrates how to use the Bluetooth LE Generic Attribute Profile (GATT)
-to transmit arbitrary data between devices.
+Modified to work on Huawei Watch 2 (Android N 7.1.1, Android Wear 2.0.0), but should be compatible with other Android Wear devices.
+
+This sample demonstrates how to use the Bluetooth LE Generic Attribute Profile (GATT) to transmit arbitrary data between devices. 
+
+Pre-requisites
+--------------
+
+- Android Wear 2.0
+- Android SDK 25
+- Android Build Tools v25.0.0
+- Android Support Repository
 
 Introduction
 ------------
@@ -19,36 +28,6 @@ The Activities communicate with the Service, which in turn interacts with the [B
 
 [1]:http://developer.android.com/reference/android/app/Service.html
 [2]:https://developer.android.com/reference/android/bluetooth/BluetoothGatt.html
-
-Pre-requisites
---------------
-
-- Android SDK 25
-- Android Build Tools v25.0.3
-- Android Support Repository
-
-Screenshots
--------------
-
-<img src="screenshots/1-main.png" height="400" alt="Screenshot"/> <img src="screenshots/2-detail.png" height="400" alt="Screenshot"/> 
-
-Getting Started
----------------
-
-This sample uses the Gradle build system. To build this project, use the
-"gradlew build" command or use "Import Project" in Android Studio.
-
-Support
--------
-
-- Google+ Community: https://plus.google.com/communities/105153134372062985968
-- Stack Overflow: http://stackoverflow.com/questions/tagged/android
-
-If you've found an error in this sample, please file an issue:
-https://github.com/googlesamples/android-BluetoothLeGatt
-
-Patches are encouraged, and may be submitted by forking this project and
-submitting a pull request through GitHub. Please see CONTRIBUTING.md for more details.
 
 License
 -------
